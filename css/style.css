@@ -1,0 +1,289 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+width: 1320px;
+margin: 0 auto;
+}
+/* common css end */
+/* banner part start */
+#top_banner .main{
+display: flex;
+justify-content: space-between;
+}
+#top_banner .main .items{
+    width: 40%;
+}
+#top_banner .main .items .focus{
+    padding-top: 100px;
+}
+#top_banner .main .items .focus h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2d3e50;
+    border-left:5px solid #fbaa33;
+    padding-left: 15px;
+}
+#top_banner .main .items .focus .mission{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #de4644;
+}
+#top_banner .main .items p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: dimgray;
+    text-transform: capitalize;
+    padding-top: 20px;
+    line-height: 25px;
+}
+#top_banner .main .items .btn{
+    padding-top: 30px;
+}
+#top_banner .main .items .btn a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fbaa33;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+#top_banner .main .items h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4494de;
+    text-transform: capitalize;
+    padding-top: 60px;
+}
+#top_banner .main .items img{
+    width: 80%;
+    padding-top: 50px;
+}
+
+/* banner part end */
+/* mission part start */
+#mission_part{
+    margin: 100px 0;
+}
+#mission_part .text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d3e50;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#mission_part .main{
+    display: flex;
+    justify-content: space-between;
+}
+#mission_part .main .row{
+    width: 30%;
+    background: rgba(255, 89, 89, 0.233);
+    border-radius: 15px;
+}
+#mission_part .text h1 span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #de4744;
+}
+#mission_part .main .row .items{
+    padding:30px 22px 50px 22px;
+}
+#mission_part .main .row .items .picture{
+    height: 70%;
+    width: 50%;
+}
+#mission_part .main .row .items .picture img{
+    height: 100%;
+    width: 100%;
+}
+#mission_part .main .row .items .speech h3{
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 500;
+color: #2d3e50;
+padding-left:22px;
+}
+#mission_part .main .row .items p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444444;
+    text-transform: capitalize;
+    padding-top: 20px;
+    line-height: 24px;
+    padding-left:22px;
+}
+
+#mission_part .main .blue{
+    background:rgba(135, 207, 235, 0.534);
+}
+#mission_part .main .green{
+    background: rgba(172, 255, 47, 0.548);
+}
+/* mission part end */
+/* develop part start */
+#develop{
+    background: url(../images/shape-1.png)no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+#develop .main{
+    display: flex;
+    justify-content: space-between;
+}
+#develop .main .row{
+    width: 50%;
+}
+#develop .main .row img{
+    width: 70%;
+}
+#develop .main .row h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(255, 68, 0, 0.651);
+    text-align: left;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+#develop .main .row h1 span{
+    display: block;
+}
+#develop .main .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444444;
+    text-transform: capitalize;
+    line-height: 24px;
+    width: 500px;
+}
+#develop .main .row .btn{
+    margin-top: 40px;
+}
+#develop .main .row .btn a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fbaa33;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+/* develop part end */
+/* community part start */
+#community{
+    margin: 100px 0;
+}
+#community .main{
+    display: flex;
+    justify-content: space-between;
+}
+#community .main .row{
+    width: 50%;
+}
+#community .main .row img{
+    width: 70%;
+}
+#community .main .row h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(255, 68, 0, 0.651);
+    text-align: left;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+#community .main .row h1 span{
+    display: block;
+}
+#community .main .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444444;
+    text-transform: capitalize;
+    line-height: 24px;
+    width: 500px;
+}
+#community .main .row .btn{
+    margin-top: 40px;
+}
+#community .main .row .btn a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fbaa33;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+/* community part end */
+/* porfolio part start */
+#portfolio_part{
+    margin-bottom: 100px;
+}
+#portfolio_part .text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d3e50;
+    text-align: center;
+  padding-bottom: 50px;
+}
+#portfolio_part .main{
+display: flex;
+justify-content: space-between;
+}
+#portfolio_part .main .row{
+    width: 30%;
+}
+#portfolio_part .main .row .image img{
+    border-radius: 15px;
+}
+/* portfolio part end */
+/* footer part start */
+#footer_part{
+    background: #0b0d17;
+    padding: 50px 0;
+    text-align: center;
+}
+#footer_part h1{
+    font-family: 'The Nautigal', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  padding-bottom: 15px;
+  padding-top: 50px;
+}
+#footer_part h1 span{
+    color: #fbaa33;
+}
+#footer_part h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  padding-bottom: 30px;
+}
+/* footer part end */
+
